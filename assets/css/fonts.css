@@ -1,0 +1,73 @@
+/* Kalame fonts */
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Thin.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-ExtraLight.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Light.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Regular.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Medium.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-SemiBold.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Bold.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-ExtraBold.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "KalamehWebFaNum";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/woff2/KalamehWebFaNum-Black.woff2") format("woff2"),
+    url("./fonts/woff/KalamehWebFaNum-Black.woff") format("woff");
+}

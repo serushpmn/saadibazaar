@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تست فونت کلمه</title>
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <style>
+      body {
+        font-family: var(--font-primary);
+        direction: rtl;
+        text-align: right;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+
+      .test-section {
+        background: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .weight-100 {
+        font-weight: 100;
+      }
+      .weight-200 {
+        font-weight: 200;
+      }
+      .weight-300 {
+        font-weight: 300;
+      }
+      .weight-400 {
+        font-weight: 400;
+      }
+      .weight-500 {
+        font-weight: 500;
+      }
+      .weight-600 {
+        font-weight: 600;
+      }
+      .weight-700 {
+        font-weight: 700;
+      }
+      .weight-800 {
+        font-weight: 800;
+      }
+      .weight-900 {
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test-section">
+      <h1>تست فونت کلمه فارسی</h1>
+      <p>این متن برای تست فونت KalamehWebFaNum نوشته شده است.</p>
+    </div>
+
+    <div class="test-section">
+      <h2>تست وزن‌های مختلف فونت:</h2>
+      <p class="weight-100">وزن ۱۰۰ - نازک</p>
+      <p class="weight-200">وزن ۲۰۰ - فوق نازک</p>
+      <p class="weight-300">وزن ۳۰۰ - کم‌وزن</p>
+      <p class="weight-400">وزن ۴۰۰ - عادی (پیش‌فرض)</p>
+      <p class="weight-500">وزن ۵۰۰ - متوسط</p>
+      <p class="weight-600">وزن ۶۰۰ - نیمه‌پررنگ</p>
+      <p class="weight-700">وزن ۷۰۰ - پررنگ</p>
+      <p class="weight-800">وزن ۸۰۰ - فوق‌پررنگ</p>
+      <p class="weight-900">وزن ۹۰۰ - سیاه</p>
+    </div>
+
+    <div class="test-section">
+      <h3>متن نمونه فارسی:</h3>
+      <p>سعدی‌بازار، بهترین مکان برای خرید آنلاین محصولات با کیفیت</p>
+      <p>اعداد فارسی: ۱۲۳۴۵۶۷۸۹۰</p>
+      <p>اعداد انگلیسی: 1234567890</p>
+    </div>
+
+    <script>
+      // Check if fonts are loaded
+      document.fonts.ready.then(function () {
+        console.log("✅ All fonts loaded successfully!");
+
+        // Check specific font
+        if (document.fonts.check("16px KalamehWebFaNum")) {
+          console.log("✅ KalamehWebFaNum font is loaded");
+          document.body.style.border = "3px solid green";
+        } else {
+          console.log("❌ KalamehWebFaNum font failed to load");
+          document.body.style.border = "3px solid red";
+        }
+      });
+    </script>
+  </body>
+</html>

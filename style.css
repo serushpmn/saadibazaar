@@ -1,0 +1,22 @@
+/*!
+Theme Name: Saadibazaar Theme
+Description: A complete WooCommerce-ready WordPress theme with modern design and full e-commerce functionality.
+Author: Sorush Peimani
+Version: 1.0.0
+Text Domain: saadibazaar-theme
+Domain Path: /languages
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: e-commerce, woocommerce, responsive, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* ========================================
+   RESET & BASE STYLES
+======================================== */
+@import url("assets/css/reset.css");
+@import url("assets/css/variables.css");
+@import url("assets/css/fonts.css");
+@import url("assets/css/base.css");
